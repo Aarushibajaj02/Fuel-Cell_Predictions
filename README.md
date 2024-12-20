@@ -4,11 +4,15 @@ This repository contains the implementation of predictive modeling on the Fuel_c
 
 Since the Roll number is 102203820 i.e. ending with 0 so target variable is target1.
 
-**Model Comparison Result before Pre-Processing**
+
+
+****Model Comparison Result before Pre-Processing****
 
 <img width="736" alt="before" src="https://github.com/user-attachments/assets/16e4f991-ce81-47f1-9a08-db92c562c939" />
 
-**Key Preprocessing Techniques**
+
+
+****Key Preprocessing Techniques****
 
 *Feature Selection: Identified the most relevant features using univariate analysis, reducing dimensionality and improving computational efficiency.
 
@@ -20,29 +24,41 @@ Since the Roll number is 102203820 i.e. ending with 0 so target variable is targ
 
 *Principal Component Analysis (PCA): Reduced dimensionality using incremental PCA to capture the most significant variance in the data.
 
-**Combined Preprocessing**
+
+
+****Combined Preprocessing****
 
 The preprocessing steps were also tested in combination, significantly enhancing model performance by addressing multiple data quality issues simultaneously.
 
-**Model Comparison Result after combined Preprocessing**
+
+
+****Model Comparison Result after combined Preprocessing****
 
 <img width="728" alt="after" src="https://github.com/user-attachments/assets/97b22e89-3f2e-401d-b81b-17db4edd20d8" />
 
-**Prediction Models Validation Curves**
+
+
+****Prediction Models Validation Curves****
+
 
 *Bayesian Ridge Regression
 
 ![br-validation curve](https://github.com/user-attachments/assets/3a84ad37-de59-46d4-a1f6-3601997861f8)
 
+
 *AdaBoost Regressor:
 
 ![ada-vc](https://github.com/user-attachments/assets/3896a712-bc77-4e34-9b03-1ebe8feec182)
+
 
 *Least Angle Regression (LAR)
 
 ![leastaangleregressor-vc](https://github.com/user-attachments/assets/ddff3413-4295-4c59-a7da-6abfef97f0cc)
 
-**Broader Insights**
+
+
+
+****Broader Insights****
 
 *Impact of Preprocessing: The integration of preprocessing techniques such as feature selection, normalization, and outlier removal demonstrated a significant improvement in model accuracy and robustness. These steps collectively mitigated challenges posed by noisy and imbalanced data.
 
